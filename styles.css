@@ -1,60 +1,105 @@
-body{
+body {
   background-color: #314e52;
 }
+
 h1 {
   color: #f875aa;
   font-size: 4rem;
   padding-top: 6rem;
   text-align: center;
 }
-h2{
+
+h2 {
   color: #f875aa;
   margin-left: 28rem;
   margin-top: 3rem;
 }
-.imgone{
-    position: absolute;
+
+.imgone {
+  position: absolute;
   height: 7rem;
   width: 7rem;
   margin-left: 28rem;
   margin-top: 7rem;
 }
-.imgtwo{
+
+.imgtwo {
   position: absolute;
   height: 7rem;
   width: 7rem;
-  margin-left:40rem;
+  margin-left: 40rem;
   margin-top: 7rem;
 }
 
-.player-one{
+.player-one {
   position: absolute;
 }
-.player-two{
+
+.player-two {
   position: absolute;
   margin-left: 40rem;
 }
+
 .myButton {
-	box-shadow: 0px 0px 0px 2px #9fb4f2;
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	background-color:#7892c2;
-	border-radius:10px;
-	border:1px solid #4e6096;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:19px;
-	padding:12px 37px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #283966;
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
+  border-radius: 10px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
   margin-left: 35rem;
 }
+
 .myButton:hover {
-	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-	background-color:#476e9e;
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
+}
+
+@media (max-width:1000px) {
+  h1{
+    padding-top: 0;
+  }
+  .myButton {
+    text-align: center;
+    position: static;
+    display: block;
+    width: 20%;
+      margin: 1rem auto 1rem auto;
+  }
+
+  .imgone {
+    position: static;
+    display: block;
+    margin: 1rem auto 1rem auto;
+  }
+
+  .imgtwo {
+    position: static;
+    display: block;
+    margin: 1rem auto 1rem auto;
+  }
+
+  .player-one {
+    position: static;
+    text-align: center;
+    margin: 0;
+  }
+
+  .player-two {
+    position: static;
+    text-align: center;
+    margin: 0;
+  }
 }
