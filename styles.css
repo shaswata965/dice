@@ -4,6 +4,11 @@ body {
 a{
   color: #ff75a0;
   text-decoration: none;
+  text-align: center;
+}
+footer{
+  text-align: center;
+  padding-top : 15rem;
 }
 h1 {
   color: #f875aa;
@@ -104,5 +109,9 @@ h2 {
     position: static;
     text-align: center;
     margin: 0;
+  }
+  footer{
+    text-align: center;
+    padding-top : 2.5rem;
   }
 }
