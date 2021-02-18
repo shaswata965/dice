@@ -1,7 +1,10 @@
 body {
   background-color: #314e52;
 }
-
+a{
+  color: #ff75a0;
+  text-decoration: none;
+}
 h1 {
   color: #f875aa;
   font-size: 4rem;
